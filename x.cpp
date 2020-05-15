@@ -1,7 +1,7 @@
 /*
  * add the cells in decreasing order according to a[i][j] , mark them and merge them with adjacent marked cells using dsu 
  * we store in every component the queries about cells in this component
- * when two components are merged we check it there a similar query in both components we answer it and remove it from the resulting component
+ * when two components are merged we check it there are similar queries in both components we answer them and remove them from the resulting component
 */
 #define fast ios_base::sync_with_stdio(0),cin.tie(0),cout.tie(0)
 #include <bits/stdc++.h>
